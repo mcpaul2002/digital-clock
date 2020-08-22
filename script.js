@@ -18,6 +18,6 @@ setInterval(function () {
         minutes = "0" + minutes;
     }
     var clockTime = hours + ":" + minutes + ":" + seconds + " " + period;
-    var clock = Document.getElementById('clock');
+    var clock = document.getElementById('clock');
     clock.innerText=clockTime;
 }, 1000);
